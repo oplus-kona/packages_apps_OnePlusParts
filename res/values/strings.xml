@@ -11,5 +11,18 @@
     <string name="hbm_title">High brightness mode</string>
     <string name="hbm_summary">Increase screen brightness beyond the normal maximum for outdoor visibility</string>
     <string name="hbm_footer">High Brightness Mode (HBM) boosts the display\'s peak luminance, making it easier to see in direct sunlight. Using this for extended periods can increase power consumption and generate more heat.</string>
+
+    <!-- Bypass Charging -->
+    <string name="bypass_charging_title">Bypass charging</string>
+    <string name="bypass_charging_summary">Direct power to phone without charging the battery</string>
+    <string name="bypass_charging_slider_title">Bypass charging mode</string>
+    <string name="bypass_charging_mode_0_title">Normal charging (0)</string>
+    <string name="bypass_charging_mode_0_desc">Resumes normal charging and Warp/VOOC immediately.</string>
+    <string name="bypass_charging_mode_1_title">Standard bypass (1)</string>
+    <string name="bypass_charging_mode_1_desc">Phone runs purely off external power, 0 mA battery charging.</string>
+    <string name="bypass_charging_mode_2_title">Gaming bypass (2)</string>
+    <string name="bypass_charging_mode_2_desc">Bypass charging + clears thermal throttling mitigation so the CPU/GPU won\'t throttle during long gaming sessions.</string>
+    <string name="bypass_charging_footer">Bypass charging routes power from the charger directly to the internal circuitry (VSYS), skipping the battery entirely. This prevents battery heat generation and protects battery health during intensive tasks like gaming.\n\nNote: Requires a charger to be connected.</string>
 </resources>
+
 

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/bypass_charging_title">
+
+    <Preference
+        android:key="bypass_charging_status"
+        android:title="@string/bypass_charging_slider_title"
+        android:selectable="false" />
+
+    <SeekBarPreference
+        android:key="bypass_charging_slider"
+        android:title=""
+        android:min="0"
+        android:max="2"
+        android:defaultValue="0"
+        app:showSeekBarValue="false"
+        app:updatesContinuously="true" />
+
+    <PreferenceCategory
+        android:title="@string/bypass_charging_slider_title">
+
+        <Preference
+            android:key="bypass_mode_0_info"
+            android:title="@string/bypass_charging_mode_0_title"
+            android:summary="@string/bypass_charging_mode_0_desc"
+            android:selectable="false" />
+
+        <Preference
+            android:key="bypass_mode_1_info"
+            android:title="@string/bypass_charging_mode_1_title"
+            android:summary="@string/bypass_charging_mode_1_desc"
+            android:selectable="false" />
+
+        <Preference
+            android:key="bypass_mode_2_info"
+            android:title="@string/bypass_charging_mode_2_title"
+            android:summary="@string/bypass_charging_mode_2_desc"
+            android:selectable="false" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="bypass_charging_footer"
+        android:title="@string/bypass_charging_footer"
+        android:selectable="false" />
+
+</PreferenceScreen>

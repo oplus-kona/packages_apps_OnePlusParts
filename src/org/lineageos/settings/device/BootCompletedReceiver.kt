@@ -10,6 +10,7 @@ import android.content.Context
 import android.content.Intent
 import org.lineageos.settings.device.display.DcDimmingUtils
 import org.lineageos.settings.device.display.HbmUtils
+import org.lineageos.settings.device.power.BypassChargingUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
 
@@ -19,8 +20,10 @@ class BootCompletedReceiver : BroadcastReceiver() {
             Intent.ACTION_BOOT_COMPLETED -> {
                 DcDimmingUtils.restoreOnBoot(context)
                 HbmUtils.restoreOnBoot(context)
+                BypassChargingUtils.restoreOnBoot(context)
             }
         }
     }
 }
+
 
