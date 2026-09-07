@@ -7,21 +7,27 @@ package org.lineageos.settings.device.power
 
 import android.os.Bundle
 import androidx.preference.Preference
-import androidx.preference.SeekBarPreference
 import com.android.settingslib.widget.SettingsBasePreferenceFragment
+import com.android.settingslib.widget.SliderPreference
 import org.lineageos.settings.device.R
 
 class BypassChargingFragment : SettingsBasePreferenceFragment(),
     Preference.OnPreferenceChangeListener {
 
     private lateinit var statusPref: Preference
-    private lateinit var sliderPref: SeekBarPreference
+    private lateinit var sliderPref: SliderPreference
 
     override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.bypass_charging_settings, rootKey)
 
         statusPref = findPreference("bypass_charging_status")!!
         sliderPref = findPreference("bypass_charging_slider")!!
+
+        sliderPref.min = 0
+        sliderPref.max = 2
+        sliderPref.sliderIncrement = 1
+        sliderPref.setTickVisible(true)
+        sliderPref.setHapticFeedbackMode(SliderPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS)
 
         val currentMode = BypassChargingUtils.getMode(requireContext())
         sliderPref.value = currentMode

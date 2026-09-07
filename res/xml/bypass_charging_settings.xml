@@ -13,14 +13,15 @@
         android:title="@string/bypass_charging_slider_title"
         android:selectable="false" />
 
-    <SeekBarPreference
+    <com.android.settingslib.widget.SliderPreference
         android:key="bypass_charging_slider"
-        android:title=""
         android:min="0"
         android:max="2"
         android:defaultValue="0"
         app:showSeekBarValue="false"
-        app:updatesContinuously="true" />
+        app:updatesContinuously="true"
+        app:textStart="@string/bypass_charging_mode_0_short"
+        app:textEnd="@string/bypass_charging_mode_2_short" />
 
     <PreferenceCategory
         android:title="@string/bypass_charging_slider_title">

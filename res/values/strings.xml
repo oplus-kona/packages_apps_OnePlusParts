@@ -22,7 +22,11 @@
     <string name="bypass_charging_mode_1_desc">Phone runs purely off external power, 0 mA battery charging.</string>
     <string name="bypass_charging_mode_2_title">Gaming bypass (2)</string>
     <string name="bypass_charging_mode_2_desc">Bypass charging + clears thermal throttling mitigation so the CPU/GPU won\'t throttle during long gaming sessions.</string>
+    <string name="bypass_charging_mode_0_short">Normal (0)</string>
+    <string name="bypass_charging_mode_2_short">Gaming (2)</string>
+
     <string name="bypass_charging_footer">Bypass charging routes power from the charger directly to the internal circuitry (VSYS), skipping the battery entirely. This prevents battery heat generation and protects battery health during intensive tasks like gaming.\n\nNote: Requires a charger to be connected.</string>
 </resources>
+
 
 
