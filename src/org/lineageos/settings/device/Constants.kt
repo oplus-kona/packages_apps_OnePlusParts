@@ -14,6 +14,10 @@ const val HBM_NODE = "/sys/kernel/oplus_display/hbm"
 const val PREF_BYPASS_CHARGING_MODE = "bypass_charging_mode"
 const val BYPASS_CHARGING_NODE = "/sys/class/power_supply/battery/input_suspend"
 
+const val PREF_GENTLE_CHARGING_KEY = "gentle_charging_enable"
+const val PREF_GENTLE_CHARGING_WATT_KEY = "gentle_charging_watt"
+const val GENTLE_CHARGING_NODE = "/sys/class/oplus_chg/battery/slow_chg_en"
+
 const val PREF_GAME_TOUCH_KEY = "game_touch_enable"
 const val GAME_TOUCH_NODE = "/proc/touchpanel/game_switch_enable"
 

@@ -27,6 +27,18 @@
 
     <string name="bypass_charging_footer">Bypass charging routes power from the charger directly to the internal circuitry (VSYS), skipping the battery entirely. This prevents battery heat generation and protects battery health during intensive tasks like gaming.\n\nNote: Requires a charger to be connected.</string>
 
+    <!-- Gentle / Slow Charging -->
+    <string name="gentle_charging_title">Gentle charging</string>
+    <string name="gentle_charging_summary">Limit charging power and temperature to preserve battery longevity</string>
+    <string name="gentle_charging_tuning_title">Power limit tuning</string>
+    <string name="gentle_charging_watt_title">Target charging rate</string>
+    <string name="gentle_charging_watt_format">Power cap: %1$d W</string>
+    <string name="gentle_charging_watt_min">10 W</string>
+    <string name="gentle_charging_watt_max">30 W</string>
+    <string name="gentle_charging_tile_active_sub">%1$d W cap</string>
+    <string name="gentle_charging_tile_inactive_sub">Off</string>
+    <string name="gentle_charging_footer">Gentle charging caps the maximum Warp / SuperVOOC charging power and current to reduce chemical degradation and heat buildup in the battery cells.\n\nRecommended for overnight charging or whenever rapid top-ups are not required.</string>
+
     <!-- Touch and Gaming Sensitivity -->
     <string name="touch_settings_title">Touch &amp; gaming sensitivity</string>
     <string name="touch_settings_summary">Game touch mode, sensitivity tuning, smoothing, and glove mode</string>
