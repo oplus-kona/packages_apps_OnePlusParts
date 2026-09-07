@@ -14,4 +14,16 @@ const val HBM_NODE = "/sys/kernel/oplus_display/hbm"
 const val PREF_BYPASS_CHARGING_MODE = "bypass_charging_mode"
 const val BYPASS_CHARGING_NODE = "/sys/class/power_supply/battery/input_suspend"
 
+const val PREF_GAME_TOUCH_KEY = "game_touch_enable"
+const val GAME_TOUCH_NODE = "/proc/touchpanel/game_switch_enable"
+
+const val PREF_TOUCH_SENSITIVITY_KEY = "touch_sensitivity_level"
+const val TOUCH_SENSITIVITY_NODE = "/proc/touchpanel/sensitive_level"
+
+const val PREF_TOUCH_SMOOTHING_KEY = "touch_smoothing_level"
+const val TOUCH_SMOOTHING_NODE = "/proc/touchpanel/smooth_level"
+
+const val PREF_GLOVE_MODE_KEY = "glove_mode_enable"
+const val GLOVE_MODE_NODE = "/proc/touchpanel/glove_mode_enable"
+
 

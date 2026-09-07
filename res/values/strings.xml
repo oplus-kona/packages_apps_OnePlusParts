@@ -26,6 +26,42 @@
     <string name="bypass_charging_mode_2_short">Gaming (2)</string>
 
     <string name="bypass_charging_footer">Bypass charging routes power from the charger directly to the internal circuitry (VSYS), skipping the battery entirely. This prevents battery heat generation and protects battery health during intensive tasks like gaming.\n\nNote: Requires a charger to be connected.</string>
+
+    <!-- Touch and Gaming Sensitivity -->
+    <string name="touch_settings_title">Touch &amp; gaming sensitivity</string>
+    <string name="touch_settings_summary">Game touch mode, sensitivity tuning, smoothing, and glove mode</string>
+    <string name="touch_modes_category">Touch modes</string>
+    <string name="touch_tuning_category">Sensitivity &amp; response tuning</string>
+    <string name="touch_level_default">Default (0)</string>
+    <string name="touch_level_high">High (5)</string>
+    <string name="touch_smoothing_off">Direct (0)</string>
+    <string name="touch_smoothing_max">Max (5)</string>
+
+    <string name="game_touch_title">Game touch mode</string>
+    <string name="game_touch_summary">Optimize touch sampling rate, latency, and palm rejection for gaming</string>
+
+    <string name="glove_mode_title">Glove mode</string>
+    <string name="glove_mode_summary">Enhance screen sensitivity for use while wearing gloves</string>
+
+    <string name="touch_sensitivity_title">Touch sensitivity</string>
+    <string name="touch_sensitivity_status_format">Sensitivity: Level %1$d (%2$s)</string>
+    <string name="touch_sensitivity_level_0">Standard</string>
+    <string name="touch_sensitivity_level_1">Low boost</string>
+    <string name="touch_sensitivity_level_2">Moderate boost</string>
+    <string name="touch_sensitivity_level_3">High boost</string>
+    <string name="touch_sensitivity_level_4">Very high boost</string>
+    <string name="touch_sensitivity_level_5">Ultra sensitivity</string>
+
+    <string name="touch_smoothing_title">Touch smoothing</string>
+    <string name="touch_smoothing_status_format">Smoothing: Level %1$d (%2$s)</string>
+    <string name="touch_smoothing_level_0">Off (Raw tracking)</string>
+    <string name="touch_smoothing_level_1">Minimal smoothing</string>
+    <string name="touch_smoothing_level_2">Moderate smoothing</string>
+    <string name="touch_smoothing_level_3">Balanced smoothing</string>
+    <string name="touch_smoothing_level_4">High smoothing</string>
+    <string name="touch_smoothing_level_5">Maximum jitter filter</string>
+
+    <string name="touch_settings_footer">Hardware touch tuning directly controls the touchscreen digitizer controller:\n\n• Game touch mode boosts the touch sampling response and applies gaming palm-rejection.\n• Touch sensitivity adjusts the capacitive sensing threshold for lighter finger contact.\n• Touch smoothing filters micro-jitter and stabilizes fast swipe trajectories.\n• Glove mode maximizes capacitive sensitivity to detect touches through fabric and leather.</string>
 </resources>
 
 

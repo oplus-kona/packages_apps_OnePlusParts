@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/touch_settings_title">
+
+    <PreferenceCategory
+        android:key="touch_modes_category"
+        android:title="@string/touch_modes_category">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="game_touch_enable"
+            android:title="@string/game_touch_title"
+            android:summary="@string/game_touch_summary"
+            android:defaultValue="false" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="glove_mode_enable"
+            android:title="@string/glove_mode_title"
+            android:summary="@string/glove_mode_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="touch_tuning_category"
+        android:title="@string/touch_tuning_category">
+
+        <Preference
+            android:key="touch_sensitivity_status"
+            android:title="@string/touch_sensitivity_title"
+            android:selectable="false" />
+
+        <com.android.settingslib.widget.SliderPreference
+            android:key="touch_sensitivity_slider"
+            android:min="0"
+            android:max="5"
+            android:defaultValue="0"
+            app:showSeekBarValue="false"
+            app:updatesContinuously="true"
+            app:textStart="@string/touch_level_default"
+            app:textEnd="@string/touch_level_high" />
+
+        <Preference
+            android:key="touch_smoothing_status"
+            android:title="@string/touch_smoothing_title"
+            android:selectable="false" />
+
+        <com.android.settingslib.widget.SliderPreference
+            android:key="touch_smoothing_slider"
+            android:min="0"
+            android:max="5"
+            android:defaultValue="0"
+            app:showSeekBarValue="false"
+            app:updatesContinuously="true"
+            app:textStart="@string/touch_smoothing_off"
+            app:textEnd="@string/touch_smoothing_max" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="touch_footer"
+        android:title="@string/touch_settings_footer"
+        android:selectable="false" />
+
+</PreferenceScreen>

@@ -125,6 +125,51 @@
             </intent-filter>
         </service>
 
+        <!-- Touch Settings Activity -->
+        <activity
+            android:name=".touch.TouchSettingsActivity"
+            android:label="@string/touch_settings_title"
+            android:icon="@drawable/ic_touch"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.display" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/touch_settings_summary" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_touch" />
+        </activity>
+
+        <!-- Game Touch Quick Settings Tile -->
+        <service
+            android:name=".touch.GameTouchTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_game_touch"
+            android:label="@string/game_touch_title"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Glove Mode Quick Settings Tile -->
+        <service
+            android:name=".touch.GloveModeTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_glove_mode"
+            android:label="@string/glove_mode_title"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
     </application>
 </manifest>
 
