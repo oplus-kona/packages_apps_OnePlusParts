@@ -15,7 +15,7 @@
         android:persistent="true"
         android:directBootAware="true"
         android:defaultToDeviceProtectedStorage="true"
-        android:theme="@style/Theme.SubSettingsBase">
+        android:theme="@style/Theme.SubSettingsBase.Expressive">
 
         <receiver
             android:name=".BootCompletedReceiver"
