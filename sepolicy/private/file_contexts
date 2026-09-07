@@ -1,0 +1,1 @@
+/sys/kernel/oplus_display(/.*)?    u:object_r:sysfs_oplus_display:s0
