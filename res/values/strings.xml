@@ -8,4 +8,8 @@
     <string name="dc_dimming_title">DC Dimming</string>
     <string name="dc_dimming_summary">Anti-flicker mode for low brightness</string>
     <string name="dc_dimming_footer">DC Dimming adjusts the screen brightness by changing the circuit power supply rather than pulsing the screen backlight. This significantly reduces screen flicker in dark environments and minimizes eye strain, but may cause slight color distortion at very low brightness levels.</string>
+    <string name="hbm_title">High brightness mode</string>
+    <string name="hbm_summary">Increase screen brightness beyond the normal maximum for outdoor visibility</string>
+    <string name="hbm_footer">High Brightness Mode (HBM) boosts the display\'s peak luminance, making it easier to see in direct sunlight. Using this for extended periods can increase power consumption and generate more heat.</string>
 </resources>
+

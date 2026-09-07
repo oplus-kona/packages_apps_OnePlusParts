@@ -9,6 +9,7 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import org.lineageos.settings.device.display.DcDimmingUtils
+import org.lineageos.settings.device.display.HbmUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
 
@@ -17,7 +18,9 @@ class BootCompletedReceiver : BroadcastReceiver() {
             Intent.ACTION_LOCKED_BOOT_COMPLETED,
             Intent.ACTION_BOOT_COMPLETED -> {
                 DcDimmingUtils.restoreOnBoot(context)
+                HbmUtils.restoreOnBoot(context)
             }
         }
     }
 }
+
