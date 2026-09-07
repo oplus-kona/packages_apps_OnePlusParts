@@ -1,5 +1,6 @@
 genfscon sysfs /kernel/oplus_display    u:object_r:sysfs_oplus_display:s0
 genfscon sysfs /class/power_supply/battery/input_suspend    u:object_r:sysfs_input_suspend:s0
 genfscon sysfs /class/oplus_chg/battery/slow_chg_en    u:object_r:sysfs_slow_chg:s0
+genfscon sysfs /class/leds/vibrator    u:object_r:sysfs_vibrator:s0
 genfscon proc /touchpanel    u:object_r:proc_touchpanel:s0
 

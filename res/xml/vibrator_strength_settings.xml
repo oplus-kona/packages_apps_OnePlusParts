@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/vibrator_strength_title">
+
+    <Preference
+        android:key="vibrator_strength_status"
+        android:title="@string/vibrator_strength_title"
+        android:selectable="false" />
+
+    <com.android.settingslib.widget.SliderPreference
+        android:key="vibrator_strength_slider"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="75"
+        app:showSeekBarValue="false"
+        app:updatesContinuously="true"
+        app:textStart="@string/vibrator_strength_min"
+        app:textEnd="@string/vibrator_strength_max" />
+
+    <PreferenceCategory
+        android:title="@string/vibrator_strength_presets_category">
+
+        <Preference
+            android:key="vibrator_test_button"
+            android:title="@string/vibrator_test_title"
+            android:summary="@string/vibrator_test_summary" />
+
+    </PreferenceCategory>
+
+    <com.android.settingslib.widget.FooterPreference
+        android:key="vibrator_strength_footer"
+        android:title="@string/vibrator_strength_footer"
+        android:selectable="false" />
+
+</PreferenceScreen>

@@ -13,6 +13,7 @@ import org.lineageos.settings.device.display.HbmUtils
 import org.lineageos.settings.device.power.BypassChargingUtils
 import org.lineageos.settings.device.power.GentleChargingUtils
 import org.lineageos.settings.device.touch.TouchUtils
+import org.lineageos.settings.device.vibration.VibratorUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
 
@@ -25,6 +26,7 @@ class BootCompletedReceiver : BroadcastReceiver() {
                 BypassChargingUtils.restoreOnBoot(context)
                 GentleChargingUtils.restoreOnBoot(context)
                 TouchUtils.restoreOnBoot(context)
+                VibratorUtils.restoreOnBoot(context)
             }
         }
     }
