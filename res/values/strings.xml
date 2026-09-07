@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018-2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string name="device_settings_title">OnePlus Settings</string>
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_summary">Anti-flicker mode for low brightness</string>
+    <string name="dc_dimming_footer">DC Dimming adjusts the screen brightness by changing the circuit power supply rather than pulsing the screen backlight. This significantly reduces screen flicker in dark environments and minimizes eye strain, but may cause slight color distortion at very low brightness levels.</string>
+</resources>
