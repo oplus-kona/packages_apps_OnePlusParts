@@ -1,4 +1,1 @@
-type sysfs_input_suspend, sysfs_type, fs_type;
 type sysfs_slow_chg, sysfs_type, fs_type;
-
-
