@@ -30,12 +30,4 @@ const val TOUCH_SMOOTHING_NODE = "/proc/touchpanel/smooth_level"
 const val PREF_GLOVE_MODE_KEY = "glove_mode_enable"
 const val GLOVE_MODE_NODE = "/proc/touchpanel/glove_mode_enable"
 
-const val PREF_VIBRATOR_STRENGTH_KEY = "vibrator_strength"
-const val VIBRATOR_PATH = "/sys/class/leds/vibrator"
-const val VIBRATOR_VMAX_NODE = "/sys/class/leds/vibrator/vmax"
-const val VIBRATOR_GAIN_NODE = "/sys/class/leds/vibrator/gain"
-const val VIBRATOR_LEVEL_NODE = "/sys/class/leds/vibrator/level"
-const val VIBRATOR_DURATION_NODE = "/sys/class/leds/vibrator/duration"
-const val VIBRATOR_ACTIVATE_NODE = "/sys/class/leds/vibrator/activate"
-
 

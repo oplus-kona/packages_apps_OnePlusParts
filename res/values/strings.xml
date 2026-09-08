@@ -75,22 +75,6 @@
 
     <string name="touch_settings_footer">Hardware touch tuning directly controls the touchscreen digitizer controller:\n\n• Game touch mode boosts the touch sampling response and applies gaming palm-rejection.\n• Touch sensitivity adjusts the capacitive sensing threshold for lighter finger contact.\n• Touch smoothing filters micro-jitter and stabilizes fast swipe trajectories.\n• Glove mode maximizes capacitive sensitivity to detect touches through fabric and leather.</string>
 
-    <!-- Vibration Strength -->
-    <string name="vibrator_strength_title">Vibration strength</string>
-    <string name="vibrator_strength_summary">Adjust haptic feedback and vibration intensity</string>
-    <string name="vibrator_strength_status_format">Intensity: %1$d%% (%2$s)</string>
-    <string name="vibrator_strength_min">0%</string>
-    <string name="vibrator_strength_max">100%</string>
-    <string name="vibrator_level_off">Muted (0%)</string>
-    <string name="vibrator_level_light">Gentle</string>
-    <string name="vibrator_level_medium">Moderate</string>
-    <string name="vibrator_level_strong">Standard (Default)</string>
-    <string name="vibrator_level_maximum">Maximum</string>
-    <string name="vibrator_strength_presets_category">Haptic test</string>
-    <string name="vibrator_test_title">Test vibration</string>
-    <string name="vibrator_test_summary">Tap to preview vibration intensity</string>
-    <string name="vibrator_tile_percent_format">%1$d%%</string>
-    <string name="vibrator_strength_footer">Hardware vibration tuning directly adjusts the boost converter voltage and drive gain of the internal linear resonant actuator (LRA). This controls the tactile punch and vibration strength across incoming calls, notifications, and interactive system haptics.</string>
 </resources>
 
 
