@@ -2,5 +2,5 @@ type sysfs_oplus_display, sysfs_type, fs_type;
 type sysfs_input_suspend, sysfs_type, fs_type;
 type proc_touchpanel, fs_type, proc_type;
 type sysfs_slow_chg, sysfs_type, fs_type;
-type sysfs_vibrator, sysfs_type, fs_type;
+
 
