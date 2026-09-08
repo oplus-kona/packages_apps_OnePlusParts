@@ -1,12 +1,6 @@
-allow system_app sysfs_oplus_display:dir r_dir_perms;
-allow system_app sysfs_oplus_display:file rw_file_perms;
-
 allow system_app sysfs_input_suspend:file rw_file_perms;
 
 allow system_app sysfs_slow_chg:file rw_file_perms;
-
-allow system_app proc_touchpanel:dir r_dir_perms;
-allow system_app proc_touchpanel:file rw_file_perms;
 
 allow system_app sysfs_vibrator:dir r_dir_perms;
 allow system_app sysfs_vibrator:file rw_file_perms;
