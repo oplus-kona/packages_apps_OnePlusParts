@@ -7,10 +7,10 @@
     <string name="device_settings_title">OnePlus Settings</string>
     <string name="dc_dimming_title">DC Dimming</string>
     <string name="dc_dimming_summary">Reduce screen flicker at low brightness</string>
-    <string name="dc_dimming_footer">DC Dimming adjusts the screen brightness by changing the circuit power supply rather than pulsing the screen backlight. This significantly reduces screen flicker in dark environments and minimizes eye strain, but may cause slight color distortion at very low brightness levels.</string>
+    <string name="dc_dimming_footer">Reduces screen flicker in low light to minimize eye strain. May cause slight color tinting at low brightness.</string>
     <string name="hbm_title">High brightness mode</string>
     <string name="hbm_summary">Boost brightness for sunlight visibility</string>
-    <string name="hbm_footer">High Brightness Mode (HBM) boosts the display\'s peak luminance, making it easier to see in direct sunlight. Using this for extended periods can increase power consumption and generate more heat.</string>
+    <string name="hbm_footer">Boosts peak screen brightness for sunlight visibility. Extended use increases power consumption and heat.</string>
 
     <!-- Bypass Charging -->
     <string name="bypass_charging_title">Bypass charging</string>
@@ -25,7 +25,7 @@
     <string name="bypass_charging_mode_0_short">Normal (0)</string>
     <string name="bypass_charging_mode_2_short">Gaming (2)</string>
 
-    <string name="bypass_charging_footer">Bypass charging routes power from the charger directly to the internal circuitry (VSYS), skipping the battery entirely. This prevents battery heat generation and protects battery health during intensive tasks like gaming.\n\nNote: Requires a charger to be connected.</string>
+    <string name="bypass_charging_footer">Powers the phone directly from the charger without charging the battery. Reduces heat during intensive tasks.</string>
 
     <!-- Gentle / Slow Charging -->
     <string name="gentle_charging_title">Gentle charging</string>
@@ -37,7 +37,7 @@
     <string name="gentle_charging_watt_max">30 W</string>
     <string name="gentle_charging_tile_active_sub">%1$d W cap</string>
     <string name="gentle_charging_tile_inactive_sub">Off</string>
-    <string name="gentle_charging_footer">Gentle charging caps the maximum Warp / SuperVOOC charging power and current to reduce chemical degradation and heat buildup in the battery cells.\n\nRecommended for overnight charging or whenever rapid top-ups are not required.</string>
+    <string name="gentle_charging_footer">Caps charging wattage to reduce battery heat and degradation. Recommended for overnight charging.</string>
 
     <!-- Touch and Gaming Sensitivity -->
     <string name="touch_settings_title">Touch &amp; gaming sensitivity</string>
@@ -73,7 +73,7 @@
     <string name="touch_smoothing_level_4">High smoothing</string>
     <string name="touch_smoothing_level_5">Maximum jitter filter</string>
 
-    <string name="touch_settings_footer">Hardware touch tuning directly controls the touchscreen digitizer controller:\n\n• Game touch mode boosts the touch sampling response and applies gaming palm-rejection.\n• Touch sensitivity adjusts the capacitive sensing threshold for lighter finger contact.\n• Touch smoothing filters micro-jitter and stabilizes fast swipe trajectories.\n• Glove mode maximizes capacitive sensitivity to detect touches through fabric and leather.</string>
+    <string name="touch_settings_footer">Fine-tune digitizer response, sampling rate, jitter smoothing, and glove sensitivity.</string>
 
 </resources>
 
