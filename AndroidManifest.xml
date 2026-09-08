@@ -30,7 +30,6 @@
         <activity
             android:name=".display.DcDimmingActivity"
             android:label="@string/dc_dimming_title"
-            android:icon="@drawable/ic_dc_dimming"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -42,9 +41,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/dc_dimming_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_dc_dimming" />
         </activity>
 
         <!-- DC Dimming Quick Settings Tile -->
@@ -63,7 +59,6 @@
         <activity
             android:name=".display.HbmActivity"
             android:label="@string/hbm_title"
-            android:icon="@drawable/ic_hbm"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -75,9 +70,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/hbm_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_hbm" />
         </activity>
 
         <!-- High Brightness Mode Quick Settings Tile -->
@@ -96,7 +88,6 @@
         <activity
             android:name=".power.BypassChargingActivity"
             android:label="@string/bypass_charging_title"
-            android:icon="@drawable/ic_bypass_charging"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -108,9 +99,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/bypass_charging_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_bypass_charging" />
         </activity>
 
         <!-- Bypass Charging Quick Settings Tile -->
@@ -129,7 +117,6 @@
         <activity
             android:name=".power.GentleChargingActivity"
             android:label="@string/gentle_charging_title"
-            android:icon="@drawable/ic_gentle_charging"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -141,9 +128,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/gentle_charging_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_gentle_charging" />
         </activity>
 
         <!-- Gentle Charging Quick Settings Tile -->
@@ -162,7 +146,6 @@
         <activity
             android:name=".touch.TouchSettingsActivity"
             android:label="@string/touch_settings_title"
-            android:icon="@drawable/ic_touch"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -174,9 +157,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/touch_settings_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_touch" />
         </activity>
 
         <!-- Game Touch Quick Settings Tile -->
@@ -207,7 +187,6 @@
         <activity
             android:name=".vibration.VibratorStrengthActivity"
             android:label="@string/vibrator_strength_title"
-            android:icon="@drawable/ic_vibration"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
@@ -219,9 +198,6 @@
             <meta-data
                 android:name="com.android.settings.summary"
                 android:resource="@string/vibrator_strength_summary" />
-            <meta-data
-                android:name="com.android.settings.icon"
-                android:resource="@drawable/ic_vibration" />
         </activity>
 
         <!-- Vibration Strength Quick Settings Tile -->
