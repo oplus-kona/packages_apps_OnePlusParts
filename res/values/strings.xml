@@ -6,15 +6,15 @@
 <resources>
     <string name="device_settings_title">OnePlus Settings</string>
     <string name="dc_dimming_title">DC Dimming</string>
-    <string name="dc_dimming_summary">Anti-flicker mode for low brightness</string>
+    <string name="dc_dimming_summary">Reduce screen flicker at low brightness</string>
     <string name="dc_dimming_footer">DC Dimming adjusts the screen brightness by changing the circuit power supply rather than pulsing the screen backlight. This significantly reduces screen flicker in dark environments and minimizes eye strain, but may cause slight color distortion at very low brightness levels.</string>
     <string name="hbm_title">High brightness mode</string>
-    <string name="hbm_summary">Increase screen brightness beyond the normal maximum for outdoor visibility</string>
+    <string name="hbm_summary">Boost brightness for sunlight visibility</string>
     <string name="hbm_footer">High Brightness Mode (HBM) boosts the display\'s peak luminance, making it easier to see in direct sunlight. Using this for extended periods can increase power consumption and generate more heat.</string>
 
     <!-- Bypass Charging -->
     <string name="bypass_charging_title">Bypass charging</string>
-    <string name="bypass_charging_summary">Direct power to phone without charging the battery</string>
+    <string name="bypass_charging_summary">Power phone directly without charging battery</string>
     <string name="bypass_charging_slider_title">Bypass charging mode</string>
     <string name="bypass_charging_mode_0_title">Normal charging (0)</string>
     <string name="bypass_charging_mode_0_desc">Resumes normal charging and Warp/VOOC immediately.</string>
@@ -29,7 +29,7 @@
 
     <!-- Gentle / Slow Charging -->
     <string name="gentle_charging_title">Gentle charging</string>
-    <string name="gentle_charging_summary">Limit charging power and temperature to preserve battery longevity</string>
+    <string name="gentle_charging_summary">Limit charging power to extend battery lifespan</string>
     <string name="gentle_charging_tuning_title">Power limit tuning</string>
     <string name="gentle_charging_watt_title">Target charging rate</string>
     <string name="gentle_charging_watt_format">Power cap: %1$d W</string>
@@ -41,7 +41,7 @@
 
     <!-- Touch and Gaming Sensitivity -->
     <string name="touch_settings_title">Touch &amp; gaming sensitivity</string>
-    <string name="touch_settings_summary">Game touch mode, sensitivity tuning, smoothing, and glove mode</string>
+    <string name="touch_settings_summary">Touch responsiveness, sensitivity, and glove mode</string>
     <string name="touch_modes_category">Touch modes</string>
     <string name="touch_tuning_category">Sensitivity &amp; response tuning</string>
     <string name="touch_level_default">Default (0)</string>
@@ -50,10 +50,10 @@
     <string name="touch_smoothing_max">Max (5)</string>
 
     <string name="game_touch_title">Game touch mode</string>
-    <string name="game_touch_summary">Optimize touch sampling rate, latency, and palm rejection for gaming</string>
+    <string name="game_touch_summary">Improve touch response and latency for gaming</string>
 
     <string name="glove_mode_title">Glove mode</string>
-    <string name="glove_mode_summary">Enhance screen sensitivity for use while wearing gloves</string>
+    <string name="glove_mode_summary">Increase sensitivity for use with gloves</string>
 
     <string name="touch_sensitivity_title">Touch sensitivity</string>
     <string name="touch_sensitivity_status_format">Sensitivity: Level %1$d (%2$s)</string>
@@ -77,7 +77,7 @@
 
     <!-- Vibration Strength -->
     <string name="vibrator_strength_title">Vibration strength</string>
-    <string name="vibrator_strength_summary">Adjust the hardware haptic motor intensity and feedback strength</string>
+    <string name="vibrator_strength_summary">Adjust haptic feedback and vibration intensity</string>
     <string name="vibrator_strength_status_format">Intensity: %1$d%% (%2$s)</string>
     <string name="vibrator_strength_min">0%</string>
     <string name="vibrator_strength_max">100%</string>
@@ -88,7 +88,7 @@
     <string name="vibrator_level_maximum">Maximum</string>
     <string name="vibrator_strength_presets_category">Haptic test</string>
     <string name="vibrator_test_title">Test vibration</string>
-    <string name="vibrator_test_summary">Tap to preview haptic intensity at the selected strength</string>
+    <string name="vibrator_test_summary">Tap to preview vibration intensity</string>
     <string name="vibrator_tile_percent_format">%1$d%%</string>
     <string name="vibrator_strength_footer">Hardware vibration tuning directly adjusts the boost converter voltage and drive gain of the internal linear resonant actuator (LRA). This controls the tactile punch and vibration strength across incoming calls, notifications, and interactive system haptics.</string>
 </resources>
