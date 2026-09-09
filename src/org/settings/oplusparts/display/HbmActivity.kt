@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.touch
+package org.settings.oplusparts.display
 
 import android.os.Bundle
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 import com.android.settingslib.collapsingtoolbar.R
 
-private const val TAG = "TouchSettingsActivity"
+private const val TAG = "HbmActivity"
 
-class TouchSettingsActivity : CollapsingToolbarBaseActivity() {
+class HbmActivity : CollapsingToolbarBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class TouchSettingsActivity : CollapsingToolbarBaseActivity() {
             .beginTransaction()
             .replace(
                 R.id.content_frame,
-                TouchSettingsFragment(),
+                HbmFragment(),
                 TAG
             )
             .commit()

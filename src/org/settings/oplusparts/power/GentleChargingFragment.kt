@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.power
 
 import android.os.Bundle
 import androidx.preference.Preference
@@ -11,8 +11,8 @@ import androidx.preference.PreferenceCategory
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.SettingsBasePreferenceFragment
 import com.android.settingslib.widget.SliderPreference
-import org.lineageos.settings.device.PREF_GENTLE_CHARGING_KEY
-import org.lineageos.settings.device.R
+import org.settings.oplusparts.PREF_GENTLE_CHARGING_KEY
+import org.settings.oplusparts.R
 
 private const val PREF_WATT_STATUS = "gentle_charging_watt_status"
 private const val PREF_WATT_SLIDER = "gentle_charging_watt_slider"

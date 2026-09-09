@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.display
+package org.settings.oplusparts.display
 
 import android.os.Bundle
 import androidx.preference.Preference
 import androidx.preference.Preference.OnPreferenceChangeListener
 import com.android.settingslib.widget.MainSwitchPreference
 import com.android.settingslib.widget.SettingsBasePreferenceFragment
-import org.lineageos.settings.device.PREF_DC_DIMMING_KEY
-import org.lineageos.settings.device.R
+import org.settings.oplusparts.PREF_DC_DIMMING_KEY
+import org.settings.oplusparts.R
 
 class DcDimmingFragment : SettingsBasePreferenceFragment(), OnPreferenceChangeListener {
 

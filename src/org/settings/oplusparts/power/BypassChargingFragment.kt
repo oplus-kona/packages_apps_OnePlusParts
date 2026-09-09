@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.power
 
 import android.os.Bundle
 import androidx.preference.Preference
 import com.android.settingslib.widget.SettingsBasePreferenceFragment
 import com.android.settingslib.widget.SliderPreference
-import org.lineageos.settings.device.R
+import org.settings.oplusparts.R
 
 class BypassChargingFragment : SettingsBasePreferenceFragment(),
     Preference.OnPreferenceChangeListener {

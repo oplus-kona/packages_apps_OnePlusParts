@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.display
+package org.settings.oplusparts.display
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.FileUtils
-import org.lineageos.settings.device.HBM_NODE
-import org.lineageos.settings.device.PREF_HBM_KEY
+import org.settings.oplusparts.FileUtils
+import org.settings.oplusparts.HBM_NODE
+import org.settings.oplusparts.PREF_HBM_KEY
 
 object HbmUtils {
 

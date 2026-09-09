@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.display
+package org.settings.oplusparts.display
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.DC_DIMMING_NODE
-import org.lineageos.settings.device.FileUtils
-import org.lineageos.settings.device.PREF_DC_DIMMING_KEY
+import org.settings.oplusparts.DC_DIMMING_NODE
+import org.settings.oplusparts.FileUtils
+import org.settings.oplusparts.PREF_DC_DIMMING_KEY
 
 object DcDimmingUtils {
 

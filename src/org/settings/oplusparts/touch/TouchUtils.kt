@@ -3,19 +3,19 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.touch
+package org.settings.oplusparts.touch
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.FileUtils
-import org.lineageos.settings.device.GAME_TOUCH_NODE
-import org.lineageos.settings.device.GLOVE_MODE_NODE
-import org.lineageos.settings.device.PREF_GAME_TOUCH_KEY
-import org.lineageos.settings.device.PREF_GLOVE_MODE_KEY
-import org.lineageos.settings.device.PREF_TOUCH_SENSITIVITY_KEY
-import org.lineageos.settings.device.PREF_TOUCH_SMOOTHING_KEY
-import org.lineageos.settings.device.TOUCH_SENSITIVITY_NODE
-import org.lineageos.settings.device.TOUCH_SMOOTHING_NODE
+import org.settings.oplusparts.FileUtils
+import org.settings.oplusparts.GAME_TOUCH_NODE
+import org.settings.oplusparts.GLOVE_MODE_NODE
+import org.settings.oplusparts.PREF_GAME_TOUCH_KEY
+import org.settings.oplusparts.PREF_GLOVE_MODE_KEY
+import org.settings.oplusparts.PREF_TOUCH_SENSITIVITY_KEY
+import org.settings.oplusparts.PREF_TOUCH_SMOOTHING_KEY
+import org.settings.oplusparts.TOUCH_SENSITIVITY_NODE
+import org.settings.oplusparts.TOUCH_SMOOTHING_NODE
 
 object TouchUtils {
 

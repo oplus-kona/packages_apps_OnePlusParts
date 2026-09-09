@@ -1,1 +1,1 @@
--keep class org.lineageos.settings.device.** { *; }
+-keep class org.settings.oplusparts.** { *; }

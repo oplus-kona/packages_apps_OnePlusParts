@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.touch
+package org.settings.oplusparts.touch
 
 import android.os.Bundle
 import androidx.preference.Preference
@@ -11,9 +11,9 @@ import androidx.preference.PreferenceCategory
 import androidx.preference.SwitchPreferenceCompat
 import com.android.settingslib.widget.SettingsBasePreferenceFragment
 import com.android.settingslib.widget.SliderPreference
-import org.lineageos.settings.device.PREF_GAME_TOUCH_KEY
-import org.lineageos.settings.device.PREF_GLOVE_MODE_KEY
-import org.lineageos.settings.device.R
+import org.settings.oplusparts.PREF_GAME_TOUCH_KEY
+import org.settings.oplusparts.PREF_GLOVE_MODE_KEY
+import org.settings.oplusparts.R
 
 private const val PREF_TOUCH_SENSITIVITY_STATUS = "touch_sensitivity_status"
 private const val PREF_TOUCH_SENSITIVITY_SLIDER = "touch_sensitivity_slider"

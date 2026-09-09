@@ -3,16 +3,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device
+package org.settings.oplusparts
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import org.lineageos.settings.device.display.DcDimmingUtils
-import org.lineageos.settings.device.display.HbmUtils
-import org.lineageos.settings.device.power.BypassChargingUtils
-import org.lineageos.settings.device.power.GentleChargingUtils
-import org.lineageos.settings.device.touch.TouchUtils
+import org.settings.oplusparts.display.DcDimmingUtils
+import org.settings.oplusparts.display.HbmUtils
+import org.settings.oplusparts.power.BypassChargingUtils
+import org.settings.oplusparts.power.GentleChargingUtils
+import org.settings.oplusparts.touch.TouchUtils
 
 class BootCompletedReceiver : BroadcastReceiver() {
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device
+package org.settings.oplusparts
 
 const val PREF_DC_DIMMING_KEY = "dc_dimming_enable"
 const val DC_DIMMING_NODE = "/sys/kernel/oplus_display/dimlayer_bl_en"

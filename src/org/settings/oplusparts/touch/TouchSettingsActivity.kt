@@ -3,15 +3,15 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.touch
 
 import android.os.Bundle
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 import com.android.settingslib.collapsingtoolbar.R
 
-private const val TAG = "GentleChargingActivity"
+private const val TAG = "TouchSettingsActivity"
 
-class GentleChargingActivity : CollapsingToolbarBaseActivity() {
+class TouchSettingsActivity : CollapsingToolbarBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class GentleChargingActivity : CollapsingToolbarBaseActivity() {
             .beginTransaction()
             .replace(
                 R.id.content_frame,
-                GentleChargingFragment(),
+                TouchSettingsFragment(),
                 TAG
             )
             .commit()

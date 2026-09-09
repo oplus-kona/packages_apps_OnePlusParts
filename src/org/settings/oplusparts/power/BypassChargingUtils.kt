@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.power
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.BYPASS_CHARGING_NODE
-import org.lineageos.settings.device.FileUtils
-import org.lineageos.settings.device.PREF_BYPASS_CHARGING_MODE
+import org.settings.oplusparts.BYPASS_CHARGING_NODE
+import org.settings.oplusparts.FileUtils
+import org.settings.oplusparts.PREF_BYPASS_CHARGING_MODE
 
 object BypassChargingUtils {
 

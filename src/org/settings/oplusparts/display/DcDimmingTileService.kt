@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.display
+package org.settings.oplusparts.display
 
 import android.content.ComponentName
 import android.content.Context

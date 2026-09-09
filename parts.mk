@@ -5,7 +5,7 @@
 
 PRODUCT_PACKAGES += \
     OnePlusParts \
-    privapp_whitelist_org.lineageos.settings.device.xml
+    privapp_whitelist_org.settings.oplusparts.xml
 
 # SEPolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += packages/apps/OnePlusParts/sepolicy/private

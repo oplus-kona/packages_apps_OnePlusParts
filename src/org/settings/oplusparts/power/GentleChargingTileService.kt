@@ -3,13 +3,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.power
 
 import android.content.ComponentName
 import android.content.Context
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
-import org.lineageos.settings.device.R
+import org.settings.oplusparts.R
 
 class GentleChargingTileService : TileService() {
 

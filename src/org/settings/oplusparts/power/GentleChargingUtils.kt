@@ -3,14 +3,14 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.lineageos.settings.device.power
+package org.settings.oplusparts.power
 
 import android.content.Context
 import androidx.preference.PreferenceManager
-import org.lineageos.settings.device.FileUtils
-import org.lineageos.settings.device.GENTLE_CHARGING_NODE
-import org.lineageos.settings.device.PREF_GENTLE_CHARGING_KEY
-import org.lineageos.settings.device.PREF_GENTLE_CHARGING_WATT_KEY
+import org.settings.oplusparts.FileUtils
+import org.settings.oplusparts.GENTLE_CHARGING_NODE
+import org.settings.oplusparts.PREF_GENTLE_CHARGING_KEY
+import org.settings.oplusparts.PREF_GENTLE_CHARGING_WATT_KEY
 
 object GentleChargingUtils {
 
